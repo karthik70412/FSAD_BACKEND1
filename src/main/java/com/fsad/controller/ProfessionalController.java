@@ -11,7 +11,6 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/professionalapi")
-@CrossOrigin(origins = {"http://localhost:5173"})
 public class ProfessionalController {
 
     @Autowired
